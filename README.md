@@ -1,16 +1,39 @@
-# price_tracker
+# Price Tracker
 
-A new Flutter project.
+A real-time Flutter application that tracks and displays the current price of Bitcoin (BTC).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project demonstrates a simple Flutter app that connects to a WebSocket to fetch Bitcoin price updates from Binance. It features a retry mechanism in case of connection errors.
 
-A few resources to get you started if this is your first Flutter project:
+### Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Real-time Bitcoin price tracking
+- Retry connection if the WebSocket fails
+- User-friendly interface with clear error messages
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Getting Started
+
+To get started with this project:
+
+**Clone the repository:**
+
+   git clone https://github.com/manthmn/trip_planner.git
+
+   Navigate to the project directory:
+   cd price_tracker
+    
+   Install dependencies:
+   flutter pub get
+    
+   Run the app:
+   flutter run
+
+Resources
+  For more information on Flutter and WebSocket integration, you can refer to:
+  
+  Flutter Documentation
+  Binance WebSocket API Documentation
+  Troubleshooting
+  Connection Errors: If the app encounters issues connecting to the WebSocket, tap the "Retry" button to re-establish the connection.
+  Data Parsing Errors: Ensure that the WebSocket URL is correct and that the data format received from Binance matches the expected format.
